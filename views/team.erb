@@ -7,7 +7,6 @@
  <body>
    <% @team.each do |key, value| %>
      <% key.to_sym %>
-     <% value ? nil : continue %>
      <% if key == :name %>
        <h1><%= "#{@abbv[key]}: #{value}" %></h1>
      <% else %>
