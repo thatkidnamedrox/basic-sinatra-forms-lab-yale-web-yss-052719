@@ -14,6 +14,7 @@ class App < Sinatra::Base
       pg: "Point Guard",
       sg: "Shooting Guard",
       sf: "Small Forward",
+      pf: "Power Forward",
       c: "Center"
     }
     erb :team
